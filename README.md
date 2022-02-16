@@ -28,6 +28,9 @@ release date.
   When a movie from the list is selected a new activity is launched, that shows various information about
 the movie and where you can rate the respective movie.
 
+| First Header  | Second Header | Third Header  |
+| ------------- | ------------- | ------------- |
+| <a href="url"><img src="https://github.com/octavians23/movie-rating-app-android/blob/main/images/list_app.png" width="250" height="500"></a> | Content Cell  |               |
+
   ###### The main activity: 
- 
-  <a href="url"><img src="https://github.com/octavians23/movie-rating-app-android/blob/main/images/list_app.png" width="250" height="500"></a>
+  

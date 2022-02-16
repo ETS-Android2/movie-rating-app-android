@@ -9,8 +9,7 @@ inside the service accounts tab of your Firebase project
 ```
 npm install
 ```
-  ###### To load the database that I have created into the new device the following command will be run inside the
-terminal(from the server directory):
+  ###### To load the database that I have created into the new device the following command will be run inside the terminal(from the server directory):
 ```
 mongorestore --db movies ./dump/movies/ 
 ```
@@ -31,4 +30,4 @@ the movie and where you can rate the respective movie.
 
   ###### The main activity: 
  
-  ![test image size]<img src="https://github.com/octavians23/movie-rating-app-android/blob/main/images/list_app.pngf" width="250" height="400">
+  <a href="url"><img src="https://github.com/octavians23/movie-rating-app-android/blob/main/images/list_app.pngf" width="250" height="400"></a>

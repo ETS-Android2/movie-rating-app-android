@@ -30,4 +30,4 @@ the movie and where you can rate the respective movie.
 
   ###### The main activity: 
  
-  <a href="url"><img src="https://github.com/octavians23/movie-rating-app-android/blob/main/images/list_app.pngf" width="250" height="400"></a>
+  <a href="url"><img src="https://github.com/octavians23/movie-rating-app-android/blob/main/images/list_app.png" width="250" height="400"></a>

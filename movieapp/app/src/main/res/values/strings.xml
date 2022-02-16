@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Movies</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="movierating_application">MovieRating Application</string>
+    <string name="rate">RATE</string>
+    <string name="moviename">MovieName</string>
+    <string name="year_of_apparition">Year Of Apparition</string>
+    <string name="search">Search</string>
+    <string name="no_movie_was_found_with_that_name_please_try_again">No movie was found with that name. Please try again</string>
+    <string name="please_try_again_later">Please Try Again Later</string>
+    <string name="unfortunately_the_servers_are_down">Unfortunately the Servers Are Down</string>
+    <string name="loading_please_wait">Loading...Please wait</string>
+</resources>

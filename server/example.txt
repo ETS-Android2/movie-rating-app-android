@@ -1,0 +1,11 @@
+Example of a post request
+
+{
+    "movieName": "Spider-Man: No Way Home",
+    "yearOfApparition": "2021",
+    "movieImageUrl": "https://static.cinemagia.ro/img/resize/db/movie/29/56/901/spider-man-no-way-home-164834l-576x0-w-97d86bc5.jpg",
+    "movieDuration": "148",
+    "movieDirector": "Jon Watts",
+    "movieMainActors": ["Tom Holland", "Zendaya", "Tobey Maguaire", "Andrew Garfield", "Marisa Tomei"],
+    "movieDescription": "With Spider-Man's identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear, forcing Peter to discover what it truly means to be Spider-Man."
+}

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#B2DFDB"
+    tools:context=".MainActivity">
+
+    <include
+        layout="@layout/appbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#B2DFDB"
+            android:text="RESET"
+            android:textColor="#01579B"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnName"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#B2DFDB"
+            android:text="A-Z"
+            android:textColor="#01579B"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnReleaseDate"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#B2DFDB"
+            android:text="Release Date"
+            android:textColor="#01579B"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnRating"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#B2DFDB"
+            android:text="Top Rated"
+            android:textColor="#01579B"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvDown1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:text="@string/unfortunately_the_servers_are_down"
+        android:textSize="16sp"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tvDown2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/please_try_again_later"
+        android:textSize="16sp"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+<!--    <fragment-->
+<!--        android:id="@+id/applicationFrag"-->
+<!--        android:name="com.example.movieapplication.ApplicationFrag"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        tools:layout="@layout/fragment_application" />-->
+
+    <fragment
+        android:id="@+id/listFrag"
+        android:name="com.example.movieapplication.ListFrag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_list"/>
+
+    <TextView
+        android:id="@+id/tvFilterMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="25dp"
+        android:gravity="center_horizontal"
+        android:text="@string/no_movie_was_found_with_that_name_please_try_again" />
+
+</LinearLayout>

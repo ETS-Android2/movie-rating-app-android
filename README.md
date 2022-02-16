@@ -30,4 +30,4 @@ the movie and where you can rate the respective movie.
 
 | The main activity | Second Activity | Notification example |
 | ------------- | ------------- | ------------- |
-| <a href="url"><img src="https://github.com/octavians23/movie-rating-app-android/blob/main/images/list_app.png" width="250" height="500"></a> | <a href="url"><img src="https://github.com/octavians23/movie-rating-app-android/blob/main/images/review_app.png" width="250" height="500"></a> | <a href="url"><img src="https://github.com/octavians23/movie-rating-app-android/blob/main/images/new_movie_notif.png" width="250" height="500"></a> |
+| <a href="url"><img src="https://github.com/octavians23/movie-rating-app-android/blob/main/images/list_app.png" width="250" height="530"></a> | <a href="url"><img src="https://github.com/octavians23/movie-rating-app-android/blob/main/images/review_app.png" width="250" height="530"></a> | <a href="url"><img src="https://github.com/octavians23/movie-rating-app-android/blob/main/images/new_movie_notif.png" width="250" height="530"></a> |

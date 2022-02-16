@@ -1,20 +1,20 @@
-  Movie rating application for Android with node.js server and FCM for notifications. 
+  # Movie rating application for Android with node.js server and FCM for notifications. 
 
   For the service part node.js and mongodb along with mongodb tools will be needed for the server to be run.
   
   For the notification part with FCM, you will need to generate your fcm server config file which is found
 inside the service accounts tab of your Firebase project
   
-  To initialize the node.js the following command will be needed:
+  ###### To initialize the node.js the following command will be needed:
 ```
 npm install
 ```
-  To load the database that I have created into the new device the following command will be run inside the
+  ###### To load the database that I have created into the new device the following command will be run inside the
 terminal(from the server directory):
 ```
 mongorestore --db movies ./dump/movies/ 
 ```
-  After all that you can start the server by typing the following command:
+  ###### After all that you can start the server by typing the following command:
 ```
 npm run devStart
 ```
@@ -29,6 +29,6 @@ release date.
   When a movie from the list is selected a new activity is launched, that shows various information about
 the movie and where you can rate the respective movie.
 
-  The main activity: 
-  
-  ![](https://github.com/octavians23/movie-rating-app-android/blob/main/images/list_app.png =250x250)
+  ###### The main activity: 
+ 
+  ![test image size]<img src="https://github.com/octavians23/movie-rating-app-android/blob/main/images/list_app.pngf" width="250" height="400">

@@ -29,4 +29,6 @@ release date.
   When a movie from the list is selected a new activity is launched, that shows various information about
 the movie and where you can rate the respective movie.
 
-  The main activity: ![alt text](https://github.com/octavians23/movie-rating-app-android/blob/main/images/list_app.png)
+  The main activity: 
+  
+  ![alt text](https://github.com/octavians23/movie-rating-app-android/blob/main/images/list_app.png =250x250)
